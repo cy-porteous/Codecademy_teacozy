@@ -1,0 +1,238 @@
+.container {
+font-family: "Helvetica";
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+text-align: center;
+width: 100%;
+height: 100%;
+
+margin: 0; /* Remove default margin */
+padding: 0; /* Remove default padding */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+header {
+text-decoration: underline;
+color: seashell;
+display: flex;
+width: 100%;
+border-bottom: 1px solid seashell;
+}
+
+.logo img {
+height: 55px;
+padding: 10px;
+padding-top: 24px;
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list style */
+  display: flex;
+  gap: 20px; /* Gap between navigation items */
+  margin-left: 1330px;
+  padding: 19px;
+  color: seashell;
+}
+
+nav ul li {
+
+  margin-left: auto;
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: seashell; /* Text color of navigation links */
+  font-weight: normal;
+  font-size: 2rem;
+  padding: 10px; /* Padding for navigation items */
+  transition: color 0.9s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+  color: #292727; /* Background color on hover */
+}
+
+.top-text {
+  position: relative;
+width: 100%;
+height: 700px;
+background-size: cover;
+background-image: url(images1/img-mission-background.jpg);
+background-position: center;
+text-align: center;
+color: seashell;
+}
+
+.top-text-h2 {
+background-color: black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding-bottom: 8px;
+padding-top: 10px;
+width: 100%;
+color: seashell;
+}
+
+.top-text-h4 {
+  background-color: black;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 4px;
+  width: 100%;
+  padding-bottom: 10px;
+  color: seashell;
+  }
+
+  .middle-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    color: seashell;
+  }
+
+.row-1 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+color: seashell;
+
+}
+
+.row-1 h4 {
+padding-top: 12px;
+position: relative;
+top: 120px;
+right: 242px;
+color: seashell;
+}
+
+.row-1 img {
+  margin-left: 0px;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  }
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: seashell;
+
+    }
+
+.row-2 h4 {
+  padding-top: 52px;
+  position: relative;
+  top: 120px;
+  right: 242px;
+  color: seashell;
+
+
+}
+
+
+.row-2 img {
+margin-top: 40px;
+ height: 200px;
+ width: 300px;
+margin-bottom: 20px;
+border-radius: 4px;
+      }
+
+.lower-text {
+display: flex;
+height: 500px;
+position: relative;
+width: 100%;
+background-size: cover;
+background-image: url(images1/img-locations-background.jpg);
+background-position: center;
+text-align: center;
+margin-top: 100px;
+color: seashell;
+}
+
+
+
+.lower-text-h2 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: seashell;
+
+}
+
+.row-3 {
+
+display: inline-flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: seashell;
+}
+
+.footer {
+display: flex;
+margin-right: 1800px;
+margin-bottom: 10px;
+color: seashell;
+}
+
+#card-1 {
+background-color: black;
+width: 300px;
+height: 300px;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center;
+line-height: 1.5;
+margin-right: 40px;
+color: seashell;
+border-radius: 4px;
+}
+
+#card-2 {
+background-color: black;
+width: 300px;
+height: 300px;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center;
+line-height: 1.5;
+margin-right: 40px;
+color: seashell;
+border-radius: 4px;
+}
+
+#card-3 {
+background-color: black;
+width: 300px;
+height: 300px;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center;
+line-height: 1.5;
+margin-right: 40px;
+color: seashell;
+border-radius: 4px;
+}
