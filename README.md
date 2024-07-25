@@ -1,1 +1,1 @@
-# codeacademy_teacozy
+# codecademy_teacozy
